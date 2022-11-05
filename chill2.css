@@ -1,0 +1,753 @@
+:root {
+    --font1: "Thasadith", sans-serif;
+}
+
+* {box-sizing: border-box}
+
+body {
+    background-image: linear-gradient(to right, lightblue, #006699, #006699, #006699, #006699, lightblue);
+    overflow-x: hidden
+}
+
+html {font-size: 16px}
+
+h1 {font-size: 3rem}
+h2 {font-size: 2rem}
+h3 {font-size: 1.5rem}
+p {font-size: 1.25rem}
+a {text-decoration: none; color: white}
+a:hover {color: lightblue}
+a.dropLink2 {color: black}
+a.dropLink2:hover {color: white}
+.icon {padding: .5vw}
+.caretD {float: right}
+#motto, #motto2 {}
+
+/* banners */
+
+.welcome {
+    height: 30vw; 
+    background-image: url("../images/interior2.png");
+    background-size: 995px 409px;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    color: black;
+    font-family: var(--font1);
+    line-height: 1.75vw;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-left: 8vw;
+    padding-top: 5vw
+}
+
+.mottoDiv {
+    height: 15vw;
+    width: 25vw;
+    display: block
+}
+
+.apps {
+    height: 30vw; 
+    margin-bottom: 20px;
+    background-image: url("../images/apps.png");
+    background-size: 995px 409px;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    color: black;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-family: var(--font1);
+    font-size: 40px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-left: 8vw;
+    padding-top: 5vw
+}
+
+.burger {
+    height: 30vw; 
+    margin-bottom: 20px;
+    background-image: url("../images/burger.png");
+    background-size: 995px 409px;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    color: black;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-family: var(--font1);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.75vw;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-left: 8vw;
+    padding-top: 5vw
+}
+
+.drinks {
+    height: 30vw; 
+    margin-bottom: 20px;
+    background-image: url("../images/bloodyMary2.png");
+    background-size: 995px 409px;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    color: black;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-family: var(--font1);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-left: 8vw;
+    padding-top: 5vw
+}
+
+.brunch {
+    height: 30vw; 
+    margin-bottom: 20px;
+    background-image: url("../images/brunch.png");
+    background-size: 995px 409px;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    color: black;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-family: var(--font1);
+    font-size: 40px;
+    font-weight: 500;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-left: 8vw;
+    padding-top: 5vw
+}
+
+.children {
+    height: 30vw; 
+    margin-bottom: 20px;
+    background-image: url("../images/kids.png");
+    background-size: 995px 409px;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    color: black;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-family: var(--font1);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-left: 8vw;
+    padding-top: 5vw
+}
+
+.catering {
+    height: 30vw; 
+    margin-bottom: 20px;
+    background-image: url("../images/patio.png");
+    background-size: 995px 409px;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    color: black;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-family: var(--font1);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-left: 8vw;
+    padding-top: 5vw
+}
+
+.dessert {
+    height: 30vw; 
+    margin-bottom: 20px;
+    background-image: url("../images/brownie.png");
+    background-size: 995px 409px;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    color: black;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-family: var(--font1);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-left: 8vw;
+    padding-top: 5vw
+}
+
+.wine {
+    height: 30vw; 
+    margin-bottom: 20px;
+    background-image: url("../images/wine.png");
+    background-size: 995px 409px;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    color: black;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-family: var(--font1);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-left: 8vw;
+    padding-top: 5vw
+}
+
+.beer {
+    height: 30vw; 
+    margin-bottom: 20px;
+    background-image: url("../images/beer.png");
+    background-size: 995px 409px;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    color: black;
+    padding-top: 50px;
+    padding-left: 100px;
+    font-family: var(--font1);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-left: 8vw;
+    padding-top: 5vw
+}
+
+.cakes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vw
+}
+
+.drink1 {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.drink2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vw
+}
+
+.pic1 { 
+    border-style: solid; 
+    border-width: thin; 
+    border-color: white;
+    width: 32vw
+}
+
+.pic2 {
+    border-style: solid; 
+    border-width: thin; 
+    border-color: white;
+    width: 37vw
+}
+
+.cPic {
+    width: 550px 
+}
+
+.header {
+    background-color: black; 
+    color: white; 
+    padding-bottom: 30px;
+    padding-top: 40px;
+    font-family: var(--font1);
+    letter-spacing: 8px;
+    text-align: center
+}
+
+/* navigation */
+
+.menu {
+    background-color: black; 
+    color:white; 
+    font-family: var(--font1);
+    letter-spacing: 2px;
+    border-bottom-color: white;
+    border-bottom-width: thin;
+    border-bottom-style: solid
+}
+
+.kitchen, .bar, #open, #open2, .gift {
+    text-shadow: 0px 0px 25px white, 0px 0px 25px white, 0px 0px 25px white
+}
+
+#hamburger {
+    text-shadow: 0px 0px 25px white, 0px 0px 25px white
+}
+
+.gift {
+    box-shadow: 0px 0px 15px white;
+    background-color: black; 
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-style: solid; 
+    border-color: white; 
+    border-width: thin; 
+    border-radius: 5px; 
+    width: 100px;
+    height: 50px
+}
+
+.directions {
+    box-shadow: 0px 0px 15px white;
+    width: 11vw;
+    height: 3vw;
+    border-style: solid; 
+    border-color: white; 
+    border-width: thin; 
+    border-radius: 5px;
+    background-color: black; 
+    font-size: 14px;
+    letter-spacing: 2px    
+}
+
+.dLink {
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu3 {
+    background-color: black;  
+    font-family: var(--font1);
+    letter-spacing: 2px;
+    border-bottom-color: white;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    padding: 10px;
+}
+
+.hamDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%
+}
+
+.logoDiv {
+    text-align: center;
+    padding-right: 140px;
+    width: 80%
+}
+
+#dropItems, #dropItems2 {
+    background-color: black;
+    letter-spacing: 2px;
+    position: absolute;
+    width: 170px;
+    padding: 10px;
+    border-bottom-color: lightblue; border-bottom-style: solid;
+    border-bottom-width: thin;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+    z-index: 1
+}
+
+.dropLink {
+    font-family: var(--font1); font-size: 18px
+}
+
+#hDropItems {
+    background-color: black;
+    letter-spacing: 2px;
+    position: absolute;
+    padding: 10px;
+    width: 25vmax;
+    border-bottom-color: lightblue; border-bottom-style: solid;
+    border-bottom-width: thin;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+    margin-top: 100px
+}
+
+.hDropLinks {
+    background-color: lightblue;
+    letter-spacing: 2px;
+    position: absolute;
+    padding: 10px;
+    width: 25vmax;
+    border-bottom-color: black; border-bottom-style: solid;
+    border-bottom-width: thin;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+    margin-top: none;
+    margin-left: -10px;
+    color: black;
+    z-index: 1
+}
+
+.hDropLinks2 {
+    background-color: lightblue;
+    letter-spacing: 2px;
+    position: absolute;
+    padding: 10px;
+    width: 25vmax;
+    border-bottom-color: black; border-bottom-style: solid;
+    border-bottom-width: thin;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+    margin-top: none;
+    margin-left: -10px;
+    z-index: 1
+}
+
+/* carousel */
+
+.description {
+    padding: 4vw;
+    margin-left: 4.5vw;
+    color: white;
+    font-family: var(--font1)
+}
+
+.carouselDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vw;
+}
+
+.carousel {
+    width: 550px;
+    border-color: white;
+    border-width: thin;
+    border-style: solid
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    position: absolute;
+    top: 13vax
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 576px) {
+    .foodM {
+    width: 70%    
+    }
+    .foodM2 {
+    width: 30%    
+    }
+    .foodMs {
+    display: none
+    }
+    .foodP {
+    width: 30%;
+    margin-left: 29vw
+    }
+    .foodP2 {
+    width: 30%
+    }
+    .line {
+    width: 45vw;
+    margin-left: 8vw    
+    }
+    .line2 {
+    width: 85vw;
+    margin-left: 8vw    
+    }
+    .spacer {
+    display: flex;
+    justify-content: center;
+    align-items: center
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cakes {
+    padding-top: 25px    
+    }
+    .drink2 {
+    padding-top: 25px    
+    }
+    #motto, #motto2 {
+    font-size: 4vw    
+    }
+    
+    
+}
+
+@media only screen and (max-width: 991px) {
+    .menu {
+    display: none    
+    }
+    .header {
+    display: none    
+    }
+    .carouselDiv {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 10vw    
+    }
+    .carousel {
+    width: 70%    
+    }
+    .cPic {
+    width: 100%    
+    }
+    .description {
+    width: 100%;
+    margin-left: 0;    
+    padding: 10vw    
+    }
+    .specials {
+    width: 100%    
+    }
+    .spheader {
+    width: 100%    
+    }
+    .drink1 {
+    display: none    
+    }
+    .drink2 {
+    width: 100%;
+    padding: 0;
+    padding-top: 4vw;
+    padding-bottom: 8vw 
+    }
+    .cakes {
+    width: 100%;
+    padding: 0;
+    padding-top: 4vw;
+    padding-bottom: 8vw    
+    }
+    .pic2 {
+    width: 70%    
+    }
+    .pic1 {
+    width: 70%    
+    }
+    .wrapper0 {
+    margin: 13px    
+    }
+    h1 {
+    font-size: 4.25vmax    
+    }
+    h2 {
+    font-size: 3.25vmax    
+    }
+    h3 {
+    font-size: 2.75vmax    
+    }
+    p {
+    font-size: 2.25vmax    
+    }
+    .footer {
+    display: none    
+    }
+    .directions {
+    width: 20vmax;
+    height: 5.5vmax     
+    }
+    .dLink {
+    font-size: 2vmax    
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1399px) {
+    .menu3 {
+    display: none    
+    }
+    .description {
+    width: 40%    
+    }
+    .carouselDiv {
+    width: 50%    
+    }
+    .drink2 {
+    display: none    
+    }
+    .specials {
+    width: 60%    
+    }
+    .spheader {
+    width: 60%    
+    }
+    .spheaderAdj {
+    width: 40%    
+    }
+    .cakes {
+    width: 40%
+    }
+    .drink1 {
+    width: 40%   
+    }
+    h1 {
+    font-size: 3vw   
+    }
+    h2 {
+    font-size: 2vw    
+    }
+    h3 {
+    font-size: 1.75vw    
+    }
+    p {
+    font-size: 1.5vw    
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .footer2 {
+    display: none    
+    }
+    .spacer3 {
+    display: none    
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+     .menu3 {
+    display: none    
+    }
+    .drink2 {
+    display: none    
+    }
+}
+  
+/* main */
+
+.specials {
+    color: white;
+    padding: 2vw
+}
+
+.specials2 {
+    color: white;
+    padding: 2vw
+}
+
+.food {
+    width: 75%
+}
+
+.food2 {
+    width: 25%
+}
+
+.spheader {
+    font-family: var(--font1);
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vw;
+    color: white
+}
+
+.spheader2 {
+    text-align: center; 
+    padding-bottom: 20px;
+    font-family: "Architects Daughter", sans-serif
+}
+
+.wrapper0, .wrapper { 
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 60px;
+    background-color: black;
+    font-family: "Architects Daughter", sans-serif;
+    border-style: solid; 
+    border-color: white; 
+    border-width: thin
+}
+
+.food {padding-bottom: 20px}
+
+.foodM {padding-bottom: 20px}
+
+.foodM2 {padding-bottom: 20px}
+
+.kids {text-align: center}
+
+.spacer {
+    height: 15px; 
+    margin-bottom: 20px
+}
+
+.spacer2 {
+    height: 15px; 
+    margin-bottom: 20px
+}
+
+.spacer3 {
+    height: 15px; 
+    margin-bottom: 20px
+}
+
+.line, .line2 {border-bottom-color: white; border-bottom-style: solid; border-bottom-width: thin}
+
+/* Footer */
+
+.footer {
+    text-align: center; 
+    font-family: var(--font1);
+    letter-spacing: 4px;
+    color: white; 
+    padding: 40px; 
+    border-top-style: solid; 
+    border-top-width: thin; 
+    border-top-color: white;
+    background-color: black;
+    margin-top: 15px;
+    font-size: 2vw
+}
+
+.footer2 {
+    text-align: center; 
+    font-family: var(--font1);
+    letter-spacing: 4px;
+    color: white; 
+    padding: 40px; 
+    border-top-style: solid; 
+    border-top-width: thin; 
+    border-top-color: white;
+    background-color: black;
+    margin-top: 15px;
+    
+}
+
+.foot, .foot2, .foot3 {
+    width: 33.3%
+}
+
+.hours, .sMedia {
+    margin-bottom: 30px
+}
+
+
+

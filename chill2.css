@@ -42,7 +42,7 @@ a.dropLink2:hover {color: white}
     padding-top: 5vw
 }
 
-.welcome {background-image.visible: url("https://buoyantlygrounded.github.io/bag-o-donuts/interior2.png")}
+.welcome.visible {background-image: url("https://buoyantlygrounded.github.io/bag-o-donuts/interior2.png")}
 
 .mottoDiv {
     height: 15vw;

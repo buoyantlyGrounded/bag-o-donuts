@@ -1,0 +1,734 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <title>Brunch</title>
+    
+    <meta charset="utf-8">
+    <meta name="description" content="Brunch menu for Chill Kitchen & Bar restaurant, featuring omelets, benedicts, pancakes and french toast">
+    <meta name="author" content="Christopher Thomas">
+    <meta name="keywords" content="restaurant, eat, chill, dine, food, drinks, menu, meet, brunch, omelets, benedicts, pancakes, french, toast, frittata">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/chill2.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand|Dancing Script|Architects Daughter|Thasadith">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!--Animated Navigation Script-->
+    
+    <script>
+    
+        $(document).ready(function() {
+            $('#dropItems').hide();
+            $('#open').on("mouseover", function() {
+                $('#dropItems').slideDown();
+            }); // end mouseover
+            $('.brunch, .specials, .header, .adj').on("mouseover", function() {
+                $('#dropItems').delay(250).slideUp();
+            }); // end mouseover
+        }); // end ready
+    
+    </script>
+    
+    <script>
+    
+        $(document).ready(function() {
+            $('#dropItems2').hide();
+            $('#open2').on("mouseover", function() {
+                $('#dropItems2').slideDown();
+            }); // end mouseover
+            $('.brunch, .specials, .header, .adj').on("mouseover", function() {
+                $('#dropItems2').delay(250).slideUp();
+            }); // end mouseover
+        }); // end ready
+    
+    </script>
+    
+    <script>
+    
+        $(document).ready(function() {
+            $('#motto').hide();
+            $('#motto').fadeIn(2000);
+        }); //end ready
+    
+    </script>
+    
+    <!-- Mobile Navigation Script -->
+    
+    <script>
+        
+        $(document).ready(function() {
+            $('#hDropItems').hide();
+            $('#hamburger').click(function() {
+                $('#hDropItems').toggle();
+            }); // end click
+        }); // end ready
+    
+    </script>
+    
+    <script>
+    
+        $(document).ready(function() {
+            $('.hDropLinks').hide();
+            $('.kitchen').click(function() {
+                if ($('.hDropLinks').is(':hidden'))
+                    $('.hDropLinks').show();
+                else if ($('.hDropLinks').is(':visible'))
+                    $('.hDropLinks').hide();
+            }); // end click
+        }); // end ready
+    
+    </script>
+    
+    <script>
+    
+        $(document).ready(function() {
+            $('.hDropLinks2').hide();
+            $('.bar').click(function() {
+                $('.hDropLinks2').toggle();
+            }); // end click
+        }); // end ready
+    
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+        
+        <div class="row">
+            
+            <div class="col-sm-2 col-md-2 col-lg-2 header"></div>
+        
+            <div class="col-sm-8 col-md-8 col-lg-8 header"> 
+                
+                <a href="chill2.html"><img src="images/chill+logo.png" width="375px" height="261px" alt="Logo for Chill Kitchen & Bar. An array of forks and spoons surround the letter C in the word Chill, which is light blue. The words Kitchen & Bar are colored dark blue." title="Chill Kitchen & Bar"></a>
+                
+            </div>
+            
+            <div class="col-sm-2 col-md-2 col-lg-2 header">
+                
+                <button class="gift"><a href="#">gift cards</a></button>
+                
+            </div>
+            
+        </div> 
+        
+        <!-- Dropdown menu -->
+        
+        <nav>
+        
+        <div class="row menu">
+            
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 adj"></div>
+            
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                
+                <h1><a href="#" id="open" title="Chill food menu">kitchen</a></h1>
+                
+                <div id="dropItems">
+            
+                    <p><a href="chill2Apps.html" class="dropLink">appetizers</a></p>
+
+                   <p><a href="chill2Lunch&Dinner.html" class="dropLink">lunch & dinner</a></p>
+
+                   <p><a href="chill2Brunch.html" class="dropLink">brunch</a></p>
+
+                   <p><a href="chill2Kids.html" class="dropLink">kids</a></p>
+
+                   <p><a href="chill2Catering.html" class="dropLink">catering</a></p>
+
+                   <p><a href="chill2Dessert.html" class="dropLink">dessert</a></p>
+            
+                </div>
+                
+            </div>
+            
+            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 adj"></div>
+            
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 adj"></div>
+            
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                
+                <h1><a href="#" id="open2" title="Chill drink menu">bar</a></h1>
+                
+                <div id="dropItems2">
+            
+                    <p><a href="chill2Wine.html" class="dropLink">wine</a></p>
+
+                   <p><a href="chill2Beer.html" class="dropLink">beer</a></p>
+
+                   <p><a href="chill2Cocktails.html" class="dropLink">craft cocktails</a></p>
+            
+                </div>
+                
+            </div>
+            
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 adj"></div>
+            
+        </div>
+            
+        <!-- Mobile Navigation -->    
+            
+        <div class="menu3">
+            
+            <div class="row">
+                
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 hamDiv">
+            
+                    <a href="#">
+
+                        <i class="fa fa-bars fa-2x" id="hamburger"></i>
+
+                    </a>
+                    
+                 </div>
+                
+                <div id="hDropItems">
+                    
+                    <h3><a href="#" class="kitchen">kitchen  <i class="fa fa-caret-down caretD"></i></a></h3>
+                    
+                    <div class="hDropLinks">
+                    
+                            <p><strong><a href="chill2Apps.html" class="dropLink2">appetizers</a></strong></p>
+
+                            <p><strong><a href="chill2Lunch&Dinner.html" class="dropLink2">lunch & dinner</a></strong></p>
+
+                            <p><strong><a href="chill2Brunch.html" class="dropLink2">brunch</a></strong></p>
+
+                            <p><strong><a href="chill2Kids.html" class="dropLink2">kids</a></strong></p>
+
+                            <p><strong><a href="chill2Catering.html" class="dropLink2">catering</a></strong></p>
+
+                            <p><strong><a href="chill2Dessert.html" class="dropLink2">dessert</a></strong></p>
+                    
+                        </div>
+            
+                    <h3><a href="#" class="bar">bar  <i class="fa fa-caret-down caretD"></i></a></h3>
+                    
+                    <div class="hDropLinks2">
+                    
+                        <p><strong><a href="chill2Wine.html" class="dropLink2">wine</a></strong></p>
+
+                        <p><strong><a href="chill2Beer.html" class="dropLink2">beer</a></strong></p>
+
+                        <p><strong><a href="chill2Cocktails.html" class="dropLink2">craft cocktails</a></strong></p>
+                        
+                    </div>
+                    
+                    <h3><a href="https://swipeit.com/product/1011/chill-kitchen-and-bar" title="Purchase gift cards" target="_blank" class="gC">gift cards</a></h3>
+                
+                </div>
+                
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 logoDiv">
+                
+                    <a href="chill2.html"><img src="images/chill+logo2.png" class="logo2" alt="Logo for Chill Kitchen & Bar. An array of forks and spoons surround the letter C in the word Chill, which is light blue. The words Kitchen & Bar are colored dark blue." title="Chill Kitchen & Bar"></a>   
+            
+                </div>
+            
+            </div>
+            
+        </div>
+            
+        </nav>
+        
+        <!-- Photo -->
+        
+         <div class="brunch flex-container" title="omelette" alt="A photograph of an omelette served with seasoned home fries. The omelette is garnished with sliced avocado.">
+            
+            <div class="row">
+            
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 mottoDiv">
+        
+                <h1 id="motto">brunch</h1>
+                
+            </div>
+            
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10"></div>
+                
+            </div>   
+                
+        </div>
+    
+        <!-- Menu -->
+    
+            <div class="specials2">
+                
+                <div class="wrapper">
+                
+                    <div class="spheader2">
+                
+                        <h2>All Things Eggs</h2>
+                        <p>Served with seasoned breakfast potatoes</p>
+                
+                    </div>
+                    
+                    <div class="spacer">
+                
+                    <div class="row">
+                    
+                        <div class="col-sm-3"></div>
+                        
+                        <div class="col-sm-6 line"></div>
+                        
+                        <div class="col-sm-3"></div>
+                    
+                    </div>
+                
+                </div>
+                    
+                <div class="row">
+                    
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>The Chill</strong></h3>
+                        <p>3 eggs any style, bacon or chicken sausage, choice of toast</p>
+                        
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$12</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>The Big Chill</strong></h3>
+                        <p>3 eggs any style, 2 bacon, 2 chicken sausage, choice of toast, one pancake or one french toast</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$15</h3>
+                   
+                   </div>
+                    
+                     <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Sweet Potato Hash</strong></h3>
+                        <p>A house favorite! 2 eggs any style atop a hash of roasted sweet potatoes, seasoned zesty ground beef, grape tomatoes, spinach, house made hollandaise</p>
+                        
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$17</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Frittata</strong></h3>
+                        <p>Classic crustless quiche with Italian sausage, seasoned tomatoes, and asparagus topped with our house three-cheese blend</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$16</h3>
+                   
+                   </div>
+                    
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Build Your Own Omelet</strong></h3>
+                        <p>Choose your meat, veggies, and cheese:</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$10</h3>
+                   
+                   </div>
+                    
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Veggie Extreme Omelet</strong></h3>
+                        <p>Mushrooms, spinach, tomatoes, cheddar</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$14</h3>
+                   
+                   </div>
+                    
+                     <div class="col-sm-4 foodM">
+                
+                        <p>Cheese: cheddar, feta, gouda, mozzarella, american, swiss, goat, or 3 cheese blend of gouda, swiss and cheddar</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <p><strong>$1</strong></p>
+                       
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                    
+                        <p>Add avocado</p>
+                    
+                    </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                    
+                        <p>$3</p>
+                    
+                    </div>
+                    
+                      <div class="col-sm-4 foodM">
+                
+                        <p>Protein: ham, bacon, italian sausage, chicken sausage</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <p><strong>$2</strong></p>
+                       
+                   </div>
+                    
+                     <div class="col-sm-4 foodM"></div>
+                   
+                   <div class="col-sm-2 foodM2"></div>
+                    
+                    <div class="col-sm-4 foodM">
+                
+                        <p>Vegetables: tomato, red onion, caramelized onion, mushrooms, arugula, asparagus, peppers, spinach, broccoli</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <p><strong>$.75</strong></p>
+                       
+                   </div>
+                    
+                     <div class="col-sm-4 foodM"></div>
+                   
+                   <div class="col-sm-2 foodM2"></div>
+                    
+                     <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Biscuits & Gravy</strong></h3>
+                        <p>Flaky biscuits topped with homemade sausage gravy topped with 2 eggs any style</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$17</h3>
+                   
+                   </div>
+                    
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Steak & Eggs</strong></h3>
+                        <p>2 eggs any style, 6oz flat iron steak, diced yukon potato hash tossed with red peppers, tomatoes, arugula and jalapenos, house made steak sauce</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$25</h3>
+                   
+                   </div>
+                    
+                     <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Fried Egg Sandwich</strong></h3>
+                         <p>2 eggs, applewood smoked bacon, cheddar cheese, sourdough toast</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$12</h3>
+                   
+                   </div>
+                    
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Monte Cristo</strong></h3>
+                        <p>Challah french toast, ham, turkey, american, swiss and fig jam</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$16</h3>
+                   
+                   </div>
+                    
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Chill Breakfast Burger</strong></h3>
+                         <p>1/2 prime beef burger, lettuce, tomato, onion, cheddar, applewood smoked bacon, perfectly fried sunny side up egg</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$19</h3>
+                   
+                   </div>
+                    
+                    <div class="col-sm-4 foodM"></div>
+                    
+                    <div class="col-sm-2 foodM2"></div>
+                    
+                     <div class="col-sm-4 foodM">
+                
+                        <p>Add avocado</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <p><strong>$3</strong></p>
+                       
+                   </div>
+                    
+                    <div class="spacer"></div>
+                
+                <div class="spheader2">
+                
+                    <h2><strong>Benedicts</strong></h2>
+                    <p>Served with seasoned breakfast potatoes</p>
+                
+                </div>
+                
+                <div class="spacer">
+                
+                    <div class="row">
+                    
+                        <div class="col-sm-3"></div>
+                        
+                        <div class="col-sm-6 line"></div>
+                        
+                        <div class="col-sm-3"></div>
+                    
+                    </div>
+                
+                </div>
+                    
+                <div class="row">
+                    
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>The Original</strong></h3>
+                        <p>Two perfectly poached eggs and sliced ham on a Portuguese muffin, house-made hollandaise</p>
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$14</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h5><strong>Lobster</strong></h5>
+                        <p>Chunks of Maine Lobster, poached eggs on a Portuguese muffin, house-made hollandaise</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>Market Price</h3>
+                   
+                   </div>
+                    
+                     <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Crab Cake</strong></h3>
+                        <p>Our house crab cakes under two poached eggs on a Portuguese muffin, house-made hollandaise</p>
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$21</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Florentine</strong></h3>
+                        <p>Sliced tomato, spinach, poached eggs on a Portuguese muffin, house-made hollandaise</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$14</h3>
+                   
+                   </div>
+                    
+                     <div class="spacer"></div>
+                
+                <div class="spheader2">
+                
+                    <h2><strong>Something Sweet</strong></h2>
+                    <p>Gluten free upon request</p>
+                
+                </div>
+                
+                <div class="spacer">
+                
+                    <div class="row">
+                    
+                        <div class="col-sm-3"></div>
+                        
+                        <div class="col-sm-6 line"></div>
+                        
+                        <div class="col-sm-3"></div>
+                    
+                    </div>
+                
+                </div>
+                    
+                 <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Chill Pancakes</strong></h3>
+                        <p>Three fluffy buttermilk pancakes</p>
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$12</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Challah French Toast</strong></h3>
+        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$13</h3>
+                   
+                   </div>
+                    
+                     <div class="col-sm-4 foodM">
+                
+                        <p>Add bananas, blueberries, strawberries, or chocolate chips</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <p><strong>$1</strong></p>
+                       
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                    
+                        <p>Add bananas, blueberries, strawberries, or chocolate chips</p>
+                    
+                    </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                    
+                        <p>$1</p>
+                    
+                    </div>
+                    
+                    <div class="spacer"></div>
+                    
+                </div>
+                    
+                </div>
+                
+                </div>
+            
+            </div>
+    
+    <div class="row footer">
+            
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 foot">
+                
+                <p>monday - thursday 12pm to 9pm</p>
+                <p>friday 12pm to 10pm</p>
+                <p>saturday 10am to 10pm</p>
+                <p>sunday 10am to 9pm</p>
+                
+            </div>
+            
+             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 foot2">
+                
+                 <a href="https://twitter.com/Chillkitchenbar" target="_blank"><i class="fa fa-twitter fa-2x icon" alt="twitter link" title="twitter"></i></a>
+                 
+                <a href="http://instagram.com/chillkitchenandbar" target="blank"><i class="fa fa-instagram fa-2x icon" alt="instagram link" title="instagram"></i></a>
+                 
+                <a href="https://www.yelp.com/biz/chill-kitchen-and-bar-marlborough" target="blank" alt="yelp link" title="yelp"><i class="fa fa-yelp fa-2x icon"></i></a> 
+                
+            </div>
+            
+             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 foot3">
+                
+                <p>416 boston post road east</p>
+                 <p>marlboro, ma 01752</p>
+                 <p>(508) 229-6050</p>
+                 
+                 <button class="directions"><a href="https://www.google.com/maps/dir/42.3657472,-71.5358208/chill+kitchen+and+bar/@42.3535586,-71.5397393,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x89e38b8605df950b:0x87f26121853867f9!2m2!1d-71.5133225!2d42.3479527" target="_blank" alt="directions" title="directions" class="dLink">directions</a></button>
+                
+            </div>
+            
+        </div>
+    
+        <div class="footer2">
+            
+            <div class="hours">
+                
+                <p>monday - thursday 12pm to 9pm</p>
+                <p>friday 12pm to 10pm</p>
+                <p>saturday 10am to 10pm</p>
+                <p>sunday 10am to 9pm</p>
+                
+            </div>
+            
+             <div class="sMedia">
+                
+                 <a href="https://twitter.com/Chillkitchenbar" target="_blank"><i class="fa fa-twitter fa-2x icon" alt="twitter link" title="twitter"></i></a>
+                 
+                <a href="http://instagram.com/chillkitchenandbar" target="blank"><i class="fa fa-instagram fa-2x icon" alt="instagram link" title="instagram"></i></a>
+                 
+                <a href="https://www.yelp.com/biz/chill-kitchen-and-bar-marlborough" target="blank" alt="yelp link" title="yelp"><i class="fa fa-yelp fa-2x icon"></i></a> 
+                
+            </div>
+            
+             <div class="address">
+                
+                <p>416 boston post road east</p>
+                 <p>marlboro, ma 01752</p>
+                 <p>(508) 229-6050</p>
+                 
+                 <br>
+                 
+                 <button class="directions"><a href="https://www.google.com/maps/dir/42.3657472,-71.5358208/chill+kitchen+and+bar/@42.3535586,-71.5397393,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x89e38b8605df950b:0x87f26121853867f9!2m2!1d-71.5133225!2d42.3479527" target="_blank" alt="directions" title="directions" class="dLink">directions</a></button>
+                
+            </div>
+            
+            <div class="spacer"></div>
+            
+        </div>
+
+</body>
+
+</html>

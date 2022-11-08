@@ -1,0 +1,985 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <title>Lunch & Dinner</title>
+    
+    <meta charset="utf-8">
+    <meta name="description" content="Lunch and dinner menu for Chill Kitchen & Bar restaurant, featuring sandwiches, entrees, pasta and pizza">
+    <meta name="author" content="Christopher Thomas">
+    <meta name="keywords" content="restaurant, eat, chill, dine, food, menu, meet, entrees, sandwich, burger, steak, chicken, pork, sides, fish, pasta, pizza">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/chill2.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand|Dancing Script|Architects Daughter|Thasadith">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!--Animated Navigation Script-->
+    
+    <script>
+    
+        $(document).ready(function() {
+            $('#dropItems').hide();
+            $('#open').on("mouseover", function() {
+                $('#dropItems').slideDown();
+            }); // end mouseover
+            $('.burger, .specials, .header, .adj').on("mouseover", function() {
+                $('#dropItems').delay(250).slideUp();
+            }); // end mouseover
+        }); // end ready
+    
+    </script>
+    
+    <script>
+    
+        $(document).ready(function() {
+            $('#dropItems2').hide();
+            $('#open2').on("mouseover", function() {
+                $('#dropItems2').slideDown();
+            }); // end mouseover
+            $('.burger, .specials, .header, .adj').on("mouseover", function() {
+                $('#dropItems2').delay(250).slideUp();
+            }); // end mouseover
+        }); // end ready
+    
+    </script>
+    
+    <!-- Menu Script -->
+    
+    <script>
+    
+        $(document).ready(function() {
+            $('#motto, #motto2').hide();
+            $('#motto, #motto2').fadeIn(2000);
+        }); //end ready
+    
+    </script>
+    
+    <!-- Mobile Navigation Script -->
+    
+    <script>
+        
+        $(document).ready(function() {
+            $('#hDropItems').hide();
+            $('#hamburger').click(function() {
+                $('#hDropItems').toggle();
+            }); // end click
+        }); // end ready
+    
+    </script>
+    
+    <script>
+    
+        $(document).ready(function() {
+            $('.hDropLinks').hide();
+            $('.kitchen').click(function() {
+                if ($('.hDropLinks').is(':hidden'))
+                    $('.hDropLinks').show();
+                else if ($('.hDropLinks').is(':visible'))
+                    $('.hDropLinks').hide();
+            }); // end click
+        }); // end ready
+    
+    </script>
+    
+    <script>
+    
+        $(document).ready(function() {
+            $('.hDropLinks2').hide();
+            $('.bar').click(function() {
+                $('.hDropLinks2').toggle();
+            }); // end click
+        }); // end ready
+    
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+        
+        <div class="row">
+            
+            <div class="col-sm-2 col-md-2 col-lg-2 header"></div>
+        
+            <div class="col-sm-8 col-md-8 col-lg-8 header"> 
+                
+                <a href="chill2.html"><img src="images/chill+logo.png" width="375px" height="261px" alt="Logo for Chill Kitchen & Bar. An array of forks and spoons surround the letter C in the word Chill, which is light blue. The words Kitchen & Bar are colored dark blue." title="Chill Kitchen & Bar"></a>
+                
+            </div>
+            
+            <div class="col-sm-2 col-md-2 col-lg-2 header">
+                
+                <button class="gift"><a href="#">gift cards</a></button>
+                
+            </div>
+            
+        </div>
+    
+    <!-- Dropdown menu -->
+        
+        <nav>
+        
+        <div class="row menu">
+            
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 adj"></div>
+            
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                
+                <h1><a href="#" id="open" title="Chill food menu">kitchen</a></h1>
+                
+                <div id="dropItems">
+            
+                    <p><a href="chill2Apps.html" class="dropLink">appetizers</a></p>
+
+                   <p><a href="chill2Lunch&Dinner.html" class="dropLink">lunch & dinner</a></p>
+
+                   <p><a href="chill2Brunch.html" class="dropLink">brunch</a></p>
+
+                   <p><a href="chill2Kids.html" class="dropLink">kids</a></p>
+
+                   <p><a href="chill2Catering.html" class="dropLink">catering</a></p>
+
+                   <p><a href="chill2Dessert.html" class="dropLink">dessert</a></p>
+            
+                </div>
+                
+            </div>
+            
+           <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 adj"></div>
+            
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 adj"></div>
+            
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                
+                <h1><a href="#" id="open2" title="Chill drink menu">bar</a></h1>
+                
+                <div id="dropItems2">
+            
+                    <p><a href="chill2Wine.html" class="dropLink">wine</a></p>
+
+                   <p><a href="chill2Beer.html" class="dropLink">beer</a></p>
+
+                   <p><a href="chill2Cocktails.html" class="dropLink">craft cocktails</a></p>
+            
+                </div>
+                
+            </div>
+            
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 adj"></div>
+            
+        </div>
+            
+        <!-- Mobile Navigation -->    
+            
+        <div class="menu3">
+            
+            <div class="row">
+                
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 hamDiv">
+            
+                    <a href="#">
+
+                        <i class="fa fa-bars fa-2x" id="hamburger"></i>
+
+                    </a>
+                    
+                 </div>
+                
+                <div id="hDropItems">
+                    
+                    <h3><a href="#" class="kitchen">kitchen  <i class="fa fa-caret-down caretD"></i></a></h3>
+                    
+                    <div class="hDropLinks">
+                    
+                            <p><strong><a href="chill2Apps.html" class="dropLink2">appetizers</a></strong></p>
+
+                            <p><strong><a href="chill2Lunch&Dinner.html" class="dropLink2">lunch & dinner</a></strong></p>
+
+                            <p><strong><a href="chill2Brunch.html" class="dropLink2">brunch</a></strong></p>
+
+                            <p><strong><a href="chill2Kids.html" class="dropLink2">kids</a></strong></p>
+
+                            <p><strong><a href="chill2Catering.html" class="dropLink2">catering</a></strong></p>
+
+                            <p><strong><a href="chill2Dessert.html" class="dropLink2">dessert</a></strong></p>
+                    
+                        </div>
+            
+                    <h3><a href="#" class="bar">bar  <i class="fa fa-caret-down caretD"></i></a></h3>
+                    
+                    <div class="hDropLinks2">
+                    
+                        <p><strong><a href="chill2Wine.html" class="dropLink2">wine</a></strong></p>
+
+                        <p><strong><a href="chill2Beer.html" class="dropLink2">beer</a></strong></p>
+
+                        <p><strong><a href="chill2Cocktails.html" class="dropLink2">craft cocktails</a></strong></p>
+                        
+                    </div>
+                    
+                    <h3><a href="https://swipeit.com/product/1011/chill-kitchen-and-bar" title="Purchase gift cards" target="_blank" class="gC">gift cards</a></h3>
+                
+                </div>
+                
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 logoDiv">
+                
+                    <a href="chill2.html"><img src="images/chill+logo2.png" class="logo2" alt="Logo for Chill Kitchen & Bar. An array of forks and spoons surround the letter C in the word Chill, which is light blue. The words Kitchen & Bar are colored dark blue." title="Chill Kitchen & Bar"></a>   
+            
+                </div>
+            
+            </div>
+            
+        </div>
+            
+        </nav>
+    
+    <!-- Banner Photo -->
+        
+         <div class="burger flex-container" title="hamburger" alt="A photograph of a cheeseburger served with steak fries. The cheese is soft and white, drizzled with a brown sauce. Grill marks on the patty indicate that it was cooked over flame. The fries have seasoning.">
+            
+            <div class="row">
+            
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 mottoDiv">
+        
+                <h1 id="motto">lunch &</h1>
+                <h1 id="motto2">dinner</h1>
+                
+            </div>
+            
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10"></div>
+                
+            </div>   
+                
+        </div>
+    
+    <!-- Menu -->
+    
+        <div class="specials2">
+    
+            <div class="wrapper">
+                
+                  <div class="spheader2">
+                      
+                      <h2><strong>Handhelds</strong></h2>
+                
+                    </div>
+                
+                <div class="spacer">
+                
+                    <div class="row">
+                    
+                        <div class="col-sm-3"></div>
+                        
+                        <div class="col-sm-6 line"></div>
+                        
+                        <div class="col-sm-3"></div>
+                    
+                    </div>
+                
+                </div>
+                
+                <div class="row">
+                
+                     <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Chill Burger</strong></h3>
+                        <p>Juicy 1/2 lb prime beef burger, lettuce, tomato, onion, cheddar on a buttered brioche bun</p>
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$15</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Breakfast Burger</strong></h3>
+                        <p>1/2 lb prime beef burger, cheddar cheese, sunny side egg, bacon, brioche bun</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$18</h3>
+                   
+                    </div>
+                    
+                    <div class="col-sm-4 foodM">
+                
+                        <p>Add avocado</p>
+                        <p>Add bacon</p>
+                        <p>Add fried egg</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <p><strong>$3</strong></p>
+                        <p><strong>$2</strong></p>
+                       <p><strong>$1.50</strong></p>
+                       
+                   </div>
+                    
+                    <div class="col-sm-4 foodM"></div>
+                   
+                   <div class="col-sm-2 foodM2"></div>
+                    
+                    <div class="col-sm-4 foodM">
+                        
+                        <h3><strong>Grass Fed Burger</strong></h3>
+                        <p>Topped with local goat cheese, caramelized onions, balsamic drizzle, on a bed of baby arugula and a buttered brioche bun. served with house-made parmesan steak fries</p>
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$18</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Steak Sandwich</strong></h3>
+                        <p>tender sliced flatiron cooked to order. served on ciabatta bread with garlic aioli, baby arugula, sliced tomatoes, caramelized onions and signature house-made steak sauce, garlic parmesan steak fries</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$23</h3>
+                   
+                   </div>
+                    
+                    <div class="col-sm-4 foodM">
+                        
+                        <h3><strong>French Dip</strong></h3>
+                        <p>Our savory shaved prime rib, melted swiss cheese, caramelized onions, au jus</p>
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$16</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Meatloaf Sandwich</strong></h3>
+                        <p>House made meatloaf, lettuce, American cheese, crispy onion strings & gravy ranch on ciabatta bread</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$18</h3>
+                   
+                   </div>
+                    
+                     <div class="col-sm-4 foodM">
+                
+                        <h3><strong>Veggie Sandwich</strong></h3>
+                         <p>Unique house-made patty, pickled red onions, garlic aioli, buttered challah bread</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                       <p><strong>$12</strong></p>
+                       
+                   </div>
+                    
+                    <div class="col-sm-4 foodM"></div>
+                   
+                   <div class="col-sm-2 foodM2"></div>
+                    
+                    <div class="col-sm-4 foodM">
+                
+                        <p>Add cheese</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <p><strong>$1</strong></p>
+                       
+                   </div>
+                    
+                    <div class="col-sm-4 foodM"></div>
+                   
+                   <div class="col-sm-2 foodM2"></div>
+                
+                </div>
+                
+                <div class="spacer"></div>
+                
+                <div class="spheader2">
+                
+                <h2><strong>Entrees</strong></h2>
+                
+            </div>
+                
+            <div class="spacer">
+                
+                <div class="row">
+                    
+                        <div class="col-sm-3"></div>
+                        
+                        <div class="col-sm-6 line"></div>
+                        
+                        <div class="col-sm-3"></div>
+                    
+                    </div>
+                
+            </div>
+                
+            <div class="row">
+                
+                <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Cajun Seared Salmon</strong></h3>
+                        <p>Cajun seared salmon over lobster cream risotto mixed with corn & tomatoes</p>
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$28</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Beer Battered Fish n' Chips</strong></h3>
+                        <p>House-made coleslaw, fries</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                       <h3>$22</h3>
+                   
+                   </div>
+                
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Baked Haddock</strong></h3>
+                        <p>Parmesan panko crust and lemon buerre blanc. rice, garlicky spinach</p>
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$26</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Scallop Risotto</strong></h3>
+                        <p>A house favorite! seared sea scallops, chef's daily risotto creation</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                       <h3>$34</h3>
+                   
+                   </div>
+                
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Shrimp Jumalaya</strong></h3>
+                        <p>Jambalaya with andouille sausage and six seared shrimp served in our jambalaya sauce with brown rice, just a touch spicy and completely heartwarming</p>
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$29</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Seafood Stew</strong></h3>
+                        <p>Haddock, shrimp & scallops in a pesto sherry cream sauce with potatoes, corn & tomato/p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                       <h3>$32</h3>
+                   
+                   </div>
+                
+                     <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Stuffed Acorn Squash</strong></h3>
+                        <p>A seasonal bounty of organic red quinoa, sweet potatoes, spinach, grape tomatoes, marsala mushrooms, crispy brussels sprouts topped with crumbly feta</p>
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$26</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Mama's Meatloaf</strong></h3>
+                        <p>Broccoli, potato puree, house gravy</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                       <h3>$22</h3>
+                   
+                   </div>
+                
+                    <div class="col-sm-4 foodM">
+                
+                        <p>Add chicken</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <p><strong>$6</strong></p>
+                       
+                   </div>
+                    
+                    <div class="col-sm-4 foodM"></div>
+                   
+                   <div class="col-sm-2 foodM2"></div>
+                
+                     <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Bone-in Pork Chop</strong></h3>
+                        <p>A house favorite! 10oz pan seared pork chop with an sweet and savory apple brandy cream sauce, mashed potatoes, crispy brussels sprouts</p>
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$28</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Pork Schnitzel</strong></h3>
+                        <p>Thinly pounded pork filet breaded in a crispy parmesan panko over cous cous mixed with asparagus, grape tomatoes & bacon topped with hard boiled egg & lemon beurree blanc</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                       <h3>$26</h3>
+                   
+                   </div>
+                
+                     <div class="col-sm-4 foodM">
+                   
+                        <h5><strong>Short Rib</strong></h5>
+                        <p>Tender braised short rib atop gnocchi, marsala mushrooms and baby arugula tossed in a sherry cream sauce</p>
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$29</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Steak Frites</strong></h3>
+                        <p>10oz flat iron, parmesan steak fries, grilled asparagus, house-made steak sauce</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                       <h3>$30</h3>
+                   
+                   </div>
+                
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Beef Tips</strong></h3>
+                        <p>House-cut marinated beef tips, baked potato, garlicky spinach</p>
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$29</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Bacon n' Blue Filet</strong></h3>
+                        <p>8oz Filet Mignon wrapped in bacon, topped with crumbled blue cheese and finished with balsamic glaze. served with potato puree and garlicky spinach</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                       <h3>$39</h3>
+                   
+                   </div>
+                
+            </div> 
+                
+             <div class="spacer"></div>    
+                
+            <div class="spheader2">
+                
+                <h2><strong>Pasta</strong></h2>
+                
+            </div>
+                
+            <div class="spacer">
+                
+                <div class="row">
+                    
+                        <div class="col-sm-3"></div>
+                        
+                        <div class="col-sm-6 line"></div>
+                        
+                        <div class="col-sm-3"></div>
+                    
+                    </div>
+                
+            </div>
+                
+            <div class="row">
+                
+                <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Chicken Parmesean</strong></h3>
+                        <p>Parmesan panko crust, house marinara, melted mozzarella and parmesan, linguine pasta</p>
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$25</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Penne Chicken</strong></h3>
+                        <p>Fresh and filling. chopped asparagus, tomato and garlic in a white wine butter sauce, topped with basil</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                       <h3>$25</h3>
+                   
+                   </div>
+                
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Lobster Mac n' Cheese</strong></h3>
+                        <p>Baked with our three-cheese sauce, cavatappi, bacon, panko bread crumbs</p>
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$34</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Lobster Raviolis</strong></h3>
+                        <p>Maine lobster, brandy cream sauce</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                       <h3>$32</h3>
+                   
+                   </div>
+                
+                     <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Butternut Squash Raviolis</strong></h3>
+                        <p>Our unique take. house-made pesto cream sauce, balsamic drizzle</p>
+                   
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$20</h3>
+                   
+                   </div>
+                   
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Mushroom Raviolis</strong></h3>
+                        <p>Mushroom raviolis tossed in a sherry cream sauce with marsala mushrooms & caramelized onions</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                       <h3>$21</h3>
+                   
+                   </div>
+                
+                    <div class="col-sm-4 foodM">
+                
+                        <h3><strong>Pasta Bolognese</strong></h3>
+                        <p>Ground beef & pancetta in a delicious marinara, parmesan cream sauce tossed with linguine pasta</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$28</h3>
+                       
+                   </div>
+                    
+                    <div class="col-sm-4 foodM"></div>
+                   
+                   <div class="col-sm-2 foodM2"></div>
+                
+            </div>
+                
+                <div class="spacer"></div>    
+                
+            <div class="spheader2">
+                
+                <h2><strong>Pizza</strong></h2>
+                
+            </div>
+                
+            <div class="spacer">
+                
+                <div class="row">
+                    
+                        <div class="col-sm-3"></div>
+                        
+                        <div class="col-sm-6 line"></div>
+                        
+                        <div class="col-sm-3"></div>
+                    
+                    </div>
+                
+            </div>
+                
+            <div class="row">
+                
+                 <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Classic Cheese</strong></h3>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                       <h3>$12</h3>
+                   
+                   </div>
+                
+                    <div class="col-sm-4 foodM">
+                
+                        <h3>Meat Lovers</h3>
+                        <p>House-made meatballs, bacon, pepperoni, sausage, mozzarella</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$17</h3>
+                       
+                   </div>
+                
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Buffalo Chicken</strong></h3>
+                        <p>Brushed with garlic oil and topped with mozzarella, braised buffalo chicken and scallions</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                       <h3>$16</h3>
+                   
+                   </div>
+                
+                    <div class="col-sm-4 foodM">
+                
+                        <h3>Short Rib</h3>
+                        <p>House-made short rib gravy topped with mozzarella, caramelized onions, bacon and braised short ribs</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$17</h3>
+                       
+                   </div>
+                
+                    <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Margarita</strong></h3>
+                        <p>Brushed with garlic oil and topped with fresh mozzarella, sliced tomato, fresh basil and extra virgin olive oil</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                       <h3>$16</h3>
+                   
+                   </div>
+                
+                    <div class="col-sm-4 foodM">
+                
+                        <h3>Pizza Verde</h3>
+                        <p>Pesto base, mozzarella, ricotta, sausage & red peppers</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$17</h3>
+                       
+                   </div>
+                
+                   <div class="col-sm-4 foodM">
+                   
+                        <h3><strong>Fig & Arugula</strong></h3>
+                        <p>A white pizza with mozzarella and crumbled goat cheese, fig jam, arugula</p>
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                       <h3>$16</h3>
+                   
+                   </div>
+                
+                    <div class="col-sm-4 foodM">
+                
+                        <h3>Veggie Extreme</h3>
+                        <p>House marinara, red peppers, caramelized onions, marsala mushrooms, spinach, mozzarella</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <h3>$15</h3>
+                       
+                   </div>
+                
+                    <div class="col-sm-4 foodM"></div>
+                   
+                   <div class="col-sm-2 foodM2"></div>
+                
+                    <div class="col-sm-4 foodM">
+                
+                        <p>Add avocado</p>
+                        <p>Add broccoli</p>
+                        
+                   </div>
+                   
+                   <div class="col-sm-2 foodM2">
+                   
+                        <p><strong>$3</strong></p>
+                        <p><strong>$.50</strong></p>
+                       
+                   </div>
+                
+                    <div class="spacer"></div>
+                
+            </div>
+    
+        </div>
+            
+    </div>
+            
+    <div class="row footer">
+            
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 foot">
+                
+                <p>monday - thursday 12pm to 9pm</p>
+                <p>friday 12pm to 10pm</p>
+                <p>saturday 10am to 10pm</p>
+                <p>sunday 10am to 9pm</p>
+                
+            </div>
+            
+             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 foot2">
+                
+                 <a href="https://twitter.com/Chillkitchenbar" target="_blank"><i class="fa fa-twitter fa-2x icon" alt="twitter link" title="twitter"></i></a>
+                 
+                <a href="http://instagram.com/chillkitchenandbar" target="blank"><i class="fa fa-instagram fa-2x icon" alt="instagram link" title="instagram"></i></a>
+                 
+                <a href="https://www.yelp.com/biz/chill-kitchen-and-bar-marlborough" target="blank" alt="yelp link" title="yelp"><i class="fa fa-yelp fa-2x icon"></i></a> 
+                
+            </div>
+            
+             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 foot3">
+                
+                <p>416 boston post road east</p>
+                 <p>marlboro, ma 01752</p>
+                 <p>(508) 229-6050</p>
+                 
+                 <button class="directions"><a href="https://www.google.com/maps/dir/42.3657472,-71.5358208/chill+kitchen+and+bar/@42.3535586,-71.5397393,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x89e38b8605df950b:0x87f26121853867f9!2m2!1d-71.5133225!2d42.3479527" target="_blank" alt="directions" title="directions" class="dLink">directions</a></button>
+                
+            </div>
+            
+        </div>
+    
+    <div class="footer2">
+            
+            <div class="hours">
+                
+                <p>monday - thursday 12pm to 9pm</p>
+                <p>friday 12pm to 10pm</p>
+                <p>saturday 10am to 10pm</p>
+                <p>sunday 10am to 9pm</p>
+                
+            </div>
+            
+             <div class="sMedia">
+                
+                 <a href="https://twitter.com/Chillkitchenbar" target="_blank"><i class="fa fa-twitter fa-2x icon" alt="twitter link" title="twitter"></i></a>
+                 
+                <a href="http://instagram.com/chillkitchenandbar" target="blank"><i class="fa fa-instagram fa-2x icon" alt="instagram link" title="instagram"></i></a>
+                 
+                <a href="https://www.yelp.com/biz/chill-kitchen-and-bar-marlborough" target="blank" alt="yelp link" title="yelp"><i class="fa fa-yelp fa-2x icon"></i></a> 
+                
+            </div>
+            
+             <div class="address">
+                
+                <p>416 boston post road east</p>
+                 <p>marlboro, ma 01752</p>
+                 <p>(508) 229-6050</p>
+                 
+                 <br>
+                 
+                 <button class="directions"><a href="https://www.google.com/maps/dir/42.3657472,-71.5358208/chill+kitchen+and+bar/@42.3535586,-71.5397393,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x89e38b8605df950b:0x87f26121853867f9!2m2!1d-71.5133225!2d42.3479527" target="_blank" alt="directions" title="directions" class="dLink">directions</a></button>
+                
+            </div>
+            
+            <div class="spacer"></div>
+            
+        </div>
+    
+</body>
+
+</html>

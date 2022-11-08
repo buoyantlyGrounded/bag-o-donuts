@@ -70,7 +70,7 @@ a.dropLink2:hover {color: white}
     padding-top: 5vw
 }
 
-.apps {background-image.visible: url("https://buoyantlygrounded.github.io/bag-o-donuts/apps.png")}
+.apps.visible {background-image: url("https://buoyantlygrounded.github.io/bag-o-donuts/apps.png")}
 
 .burger {
     height: 30vw; 
@@ -94,7 +94,7 @@ a.dropLink2:hover {color: white}
     padding-top: 5vw
 }
 
-.burger {background-image.visible: url("https://buoyantlygrounded.github.io/bag-o-donuts/burger.png")}
+.burger.visible {background-image: url("https://buoyantlygrounded.github.io/bag-o-donuts/burger.png")}
 
 .drinks {
     height: 30vw; 
@@ -118,7 +118,7 @@ a.dropLink2:hover {color: white}
     padding-top: 5vw
 }
 
-.drinks {background-image.visible: url("https://buoyantlygrounded.github.io/bag-o-donuts/bloodyMary2.png")}
+.drinks.visible {background-image: url("https://buoyantlygrounded.github.io/bag-o-donuts/bloodyMary2.png")}
 
 .brunch {
     height: 30vw; 
@@ -141,7 +141,7 @@ a.dropLink2:hover {color: white}
     padding-top: 5vw
 }
 
-.brunch {background-image.visible: url("https://buoyantlygrounded.github.io/bag-o-donuts/brunch.png")}
+.brunch.visible {background-image: url("https://buoyantlygrounded.github.io/bag-o-donuts/brunch.png")}
 
 .children {
     height: 30vw; 
@@ -165,7 +165,7 @@ a.dropLink2:hover {color: white}
     padding-top: 5vw
 }
 
-.children {background-image.visible: url("https://buoyantlygrounded.github.io/bag-o-donuts/kids.png")}
+.children.visible {background-image: url("https://buoyantlygrounded.github.io/bag-o-donuts/kids.png")}
 
 .catering {
     height: 30vw; 
@@ -189,7 +189,7 @@ a.dropLink2:hover {color: white}
     padding-top: 5vw
 }
 
-.catering {background-image.visible: url("https://buoyantlygrounded.github.io/bag-o-donuts/patio.png")}
+.catering.visible {background-image: url("https://buoyantlygrounded.github.io/bag-o-donuts/patio.png")}
 
 .dessert {
     height: 30vw; 
@@ -213,7 +213,7 @@ a.dropLink2:hover {color: white}
     padding-top: 5vw
 }
 
-.dessert {background-image.visible: url("https://buoyantlygrounded.github.io/bag-o-donuts/brownie.png")}
+.dessert.visible {background-image: url("https://buoyantlygrounded.github.io/bag-o-donuts/brownie.png")}
 
 .wine {
     height: 30vw; 
@@ -237,7 +237,7 @@ a.dropLink2:hover {color: white}
     padding-top: 5vw
 }
 
-.wine {background-image.visible: url("https://buoyantlygrounded.github.io/bag-o-donuts/wine.png")}
+.wine.visible {background-image: url("https://buoyantlygrounded.github.io/bag-o-donuts/wine.png")}
 
 .beer {
     height: 30vw; 
@@ -261,7 +261,7 @@ a.dropLink2:hover {color: white}
     padding-top: 5vw
 }
 
-.beer {background-image.visible: url("https://buoyantlygrounded.github.io/bag-o-donuts/beer.png")}
+.beer.visible {background-image: url("https://buoyantlygrounded.github.io/bag-o-donuts/beer.png")}
 
 .cakes {
     display: flex;

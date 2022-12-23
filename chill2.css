@@ -115,7 +115,7 @@ a.dropLink2:hover {color: white}
 .brunch {
     height: 30vw; 
     margin-bottom: 20px;
-    background-image: url("../images/brunch.png");
+    background-image: url("https://buoyantlygrounded.github.io/bag-o-donuts/brunch.png");
     background-size: 995px 409px;
     background-position: center;
 	background-repeat: no-repeat;
@@ -136,7 +136,7 @@ a.dropLink2:hover {color: white}
 .children {
     height: 30vw; 
     margin-bottom: 20px;
-    background-image: url("https://buoyantlygrounded.github.io/bag-o-donuts/brunch.png");
+    background-image: url("");
     background-size: 995px 409px;
     background-position: center;
 	background-repeat: no-repeat;

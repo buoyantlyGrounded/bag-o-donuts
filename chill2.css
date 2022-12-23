@@ -224,7 +224,7 @@ a.dropLink2:hover {color: white}
 .beer {
     height: 30vw; 
     margin-bottom: 20px;
-    background-image: url("../images/beer.png");
+    background-image: url("https://buoyantlygrounded.github.io/bag-o-donuts/beer.png");
     background-size: 995px 409px;
     background-position: center;
 	background-repeat: no-repeat;

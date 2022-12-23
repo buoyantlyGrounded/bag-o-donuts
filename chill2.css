@@ -71,7 +71,7 @@ a.dropLink2:hover {color: white}
 .burger {
     height: 30vw; 
     margin-bottom: 20px;
-    background-image: url("../images/burger.png");
+    background-image: url("https://buoyantlygrounded.github.io/bag-o-donuts/burger.png");
     background-size: 995px 409px;
     background-position: center;
 	background-repeat: no-repeat;

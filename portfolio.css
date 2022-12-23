@@ -8,6 +8,8 @@ h1 {font-size: 8vw}
 
 p {font-family: serif, Imbue}
 
+a:hover {cursor: pointer}
+
 .huge {
     position: absolute;
     top: -14vw;

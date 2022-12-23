@@ -183,6 +183,7 @@ p {font-family: serif, Imbue}
 .cPic {
     width: 14.2vw;
     height: 9.8vw;
+    cursor: pointer
 }
 
 /* Media Queries */

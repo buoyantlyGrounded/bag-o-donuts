@@ -1,0 +1,237 @@
+body{background-image: url("../images/eastern.jpg")}
+
+/* Header, Headings */
+
+#header{background-color:white; margin-top: 62px;}
+#header2{background-color:white; margin-top: 62px;}
+h2{font-family: Optima, sans-serif; padding: 30px; text-align: center;}
+h3{font-family: Optima, sans-serif;}
+h4{font-family: Optima, sans-serif;}
+h5{font-family: Optima, sans-serif;}
+li{font-size: 17px}
+p{orphans: 3; widows: 3;}
+#hands{display: block; margin-left: auto; margin-right: auto}
+#logo{display: block; margin-left: auto; margin-right: auto; margin-top: 50px}
+
+/* Log In Suite */
+
+#donate{display: block; margin-left: auto; margin-right: auto; margin-bottom: 10px}
+.donate:link{color: white; background-color: orange;  padding: 8px; border-radius: 4px}
+.donate:visited{color: white}
+.donate:hover{color: orange; text-decoration: none; background-color: white; border-style: solid; border-color: orange}
+
+#vertnav{display: block; margin-left: auto; margin-right: auto}
+#loglink{color: black}
+#loglink:hover{color: orange}
+
+#volunteer1{padding: 40px}
+#volunteer2{padding: 20px}
+
+/* Social Media */
+
+#social{padding-top: 15px}
+#icon{display: block; margin-left: auto; margin-right: auto; margin-bottom: 38px}
+#li{display: block; margin-left: auto; margin-right: auto}
+
+* {box-sizing: border-box;}
+.row{display: flex; flex-wrap: wrap;}
+
+/* Main Navigation */
+
+#navbar{box-shadow: 20px 20px 20px black; padding-left: 50px}
+#hnlink{color:hsl(259, 28%, 41%);}
+#hnlink:hover{color: orange}
+#hnav{padding-top: 10px; padding-bottom: 10px; padding-right: 28px;}
+
+#textlink{color:purple;}
+#textlink:hover{color: orange; text-decoration: none;}
+
+#search {
+    border-color: orange;
+    border-style: solid;
+    border-width: thin
+}
+
+/* Responsive Search Bar */
+
+#sbtn{background-color: orange}
+
+@media screen and (max-width: 1200px) {
+    .search-container {
+        text-align: center
+    }
+    .shiP {
+        margin-left: 40px
+    }
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .shiP2 {
+        margin-left: 40px
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #search {
+        width: 75%;
+    }
+    #header2 {
+        display: none
+    }
+    #prosthetic {
+        width: 75%
+    }
+    #greatWall {
+        width: 75%
+    }
+    #africanPlain {
+        width: 75%
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .logoDiv {
+        width: 100%
+    }
+    #login2 {
+        width: 100%
+    }
+    #header {
+        display: none
+    }
+    .wwd {
+        margin-top: 60px
+    }
+    
+}
+
+.nav-item{font-size: 20px; text-align: center; font-family: Optima, sans-serif;}
+
+/* Images */
+
+.textpic{float: right; border-color: orange; border-style: solid; border-width: thick; margin: 15px}
+#missionpic{float: right; border-color: orange; border-style: solid; border-width: thick; margin: 15px}
+#whatpic{float: left; border-color: orange; border-width: thick; border-style: solid; margin-right: 45px; margin-bottom: 30px}
+#news{float: left}
+.npic{margin-bottom: 30px}
+.feipic{border-color: orange; border-width: thick; border-style: solid; display: block; margin-left: auto; margin-right: auto}
+.peoplepic{margin-bottom: 20px}
+.pal{display:block;margin-left: auto;margin-right: auto; margin-top: 30px}
+
+/* Secondary Pages */
+
+table{width: 100%; text-align: center;}
+th, td{padding: 30px}
+
+.awardtext{text-align: center; padding-bottom: 10px}
+
+.form-inline{padding-top: 12px}
+
+.container{margin-bottom: 62px; margin-top: 62px;display}
+
+#sidenav{margin-left: 62px; margin-top: 62px; background-color: white; padding: 30px; font-family: Optima; text-align: center;}
+#vnlink{color:hsl(259, 28%, 41%)}
+#vnlink:hover{color: orange}
+
+#awards{font-family: Charter, serif; font-size: 18px; background-color: white; padding: 40px; margin-top: 62px; box-shadow: 20px 20px 20px black}
+#about{font-family: Charter, serif; font-size: 18px; background-color: white; padding: 40px; margin-top: 62px; box-shadow: 20px 20px 20px black;}
+
+#contact{text-align: center; padding: 15px;}
+#contactbtn{background-color: orange; border-color: orange;}
+#contactbtn:hover{background-color: white; border-color: orange; color: orange;}
+
+#pinfo{border-style: solid; border-color: lightgrey; padding: 15px}
+#kids{padding: 10px;}
+.wrapper{margin-top: 62px; background-image: url("../images/china_fields2.png"); background-repeat: no-repeat;
+  background-size: cover; border-style: solid; border-color: white}
+.face{margin: 10px; box-shadow: 5px 5px 5px black; display: block;margin-left: auto;margin-right: auto;}
+.story{color: white; text-align: center; margin-top: 38px; font-family: Charter; background-color: rgb(85, 90, 140); border-style: solid; border-width: thin; border-color: white}
+
+.campaign{display: block; margin-left: auto; margin-right: auto; border-style: solid; border-color: rgb(237, 237, 237); text-align: center; padding: 10px; width: 100%}
+#camphead{text-align: center}
+
+.nstory{border-style: solid;; border-color: rgb(237, 237, 237); padding: 50px; margin: 50px;}
+.people{border-style: solid;; border-color: rgb(237, 237, 237); padding: 30px; margin-top: 30px}
+.login{border-style: solid;; border-color: rgb(237, 237, 237); padding: 50px; display: block; margin-left: auto; margin-right: auto}
+
+#shentext{padding-left: 80px}
+.quote{padding-left: 60px; padding-right: 60px}
+.wwdp{margin-bottom: 100px}
+
+/* Callout */
+
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+/* Callout header */
+
+.callout-header {
+  padding: 25px 15px;
+  background: orange;
+  font-size: 30px;
+  color: white;
+  font-family: Optima, sans-serif;
+  text-align: center;
+}
+
+/* Callout container/body */
+.callout-container {
+  padding: 15px;
+  background-color: orange;
+  color: black;
+  font-family: Charter, serif;
+  text-align: center;
+}
+
+/* Close button */
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Change color on mouse-over */
+.closebtn:hover {
+  color: lightgrey;
+}
+
+/* Scroll to Top */
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: orange; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 18px;
+  font-family: Charter, serif;
+}
+
+#myBtn:hover {
+  background-color: white; border-style: solid; border-color: orange; color: orange;
+}
+
+/* Footer */
+
+#footer{padding: 30px; font-family: Optima; text-align: center; background-color: white}
+.footcol{margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);}

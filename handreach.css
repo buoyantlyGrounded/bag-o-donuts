@@ -146,7 +146,7 @@ th, td{padding: 30px}
 .wrapper{margin-top: 62px; background-image: url("https://buoyantlygrounded.github.io/bag-o-donuts/china_fields2.png"); background-repeat: no-repeat;
   background-size: cover; border-style: solid; border-color: white}
 .face{margin: 10px; box-shadow: 5px 5px 5px black; display: block;margin-left: auto;margin-right: auto; border-style: solid; border-color: white; border-width: thin}
-.story{color: white; text-align: center; margin-top: 38px; font-family: Charter; background-color: rgb(85, 90, 140); border-style: solid; border-width: thin; border-color: white}
+.story{color: white; text-align: center; margin-top: 38px; font-family: Charter; background-color: rgb(85, 90, 140); border-style: solid; border-width: thin; border-color: white; padding: 15px}
 
 .campaign{display: block; margin-left: auto; margin-right: auto; border-style: solid; border-color: rgb(237, 237, 237); text-align: center; padding: 10px; width: 100%}
 #camphead{text-align: center}

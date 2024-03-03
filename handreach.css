@@ -108,8 +108,9 @@ p{orphans: 3; widows: 3;}
 
 @media screen and (max-width: 576px) {
     .textpic, #missionpic, .feipic {
-        width: 80%;
-        height: 80%
+        display: block;
+        margin-right: auto;
+        margin-left: auto
     }
 }
 

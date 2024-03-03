@@ -110,7 +110,9 @@ p{orphans: 3; widows: 3;}
     .textpic, #missionpic, .feipic {
         display: block;
         margin-right: auto;
-        margin-left: auto
+        margin-left: auto;
+        width: 80%;
+        height: 80%
     }
 }
 

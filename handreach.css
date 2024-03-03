@@ -106,13 +106,7 @@ p{orphans: 3; widows: 3;}
     
 }
 
-@media screen and (max-width: 576px) {
-    .textpic, #missionpic, .feipic {
-        display: block;
-        margin-right: auto;
-        margin-left: auto
-    }
-}
+
 
 .nav-item{font-size: 20px; text-align: center; font-family: Optima, sans-serif;}
 

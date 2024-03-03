@@ -111,7 +111,9 @@ p{orphans: 3; widows: 3;}
         display: block;
         margin-right: auto;
         margin-left: auto;
-        float: none
+        float: none;
+        width: 90%;
+        height: 90%
     }
 }
 

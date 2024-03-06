@@ -128,7 +128,8 @@ p{orphans: 3; widows: 3;}
 /* Images */
 
 .textpic{float: right; border-color: orange; border-style: solid; border-width: thick; margin: 15px}
-.textpic2{border-color: orange; border-style: solid; border-width: thick; box-sizing: border-box; display: block; margin-right: auto; margin-left: auto}#missionpic{float: right; border-color: orange; border-style: solid; border-width: thick; margin: 15px}
+.textpic2{border-color: orange; border-style: solid; border-width: thick; box-sizing: border-box; display: block; margin-right: auto; margin-left: auto}
+#missionpic{float: right; border-color: orange; border-style: solid; border-width: thick; margin: 15px}
 #whatpic{float: left; border-color: orange; border-width: thick; border-style: solid; margin-right: 45px; margin-bottom: 30px}
 #news{float: left}
 .npic{margin-bottom: 30px}

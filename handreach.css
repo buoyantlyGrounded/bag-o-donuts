@@ -117,7 +117,9 @@ p{orphans: 3; widows: 3;}
     .textpic {
         display: none
     }
-
+    .textpic2 {
+        width: 80%;
+        height: 80%
 }
 
 

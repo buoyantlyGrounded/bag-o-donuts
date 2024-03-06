@@ -106,21 +106,27 @@ p{orphans: 3; widows: 3;}
     
 }
 
-@media screen and (max-width: 576px) {
-    .textpic, #missionpic, .feipic {
-        float: none;
-        display: block;
-        margin-right: auto;
-        margin-left: auto
+@media screen and (min-width: 576px) {
+    #altPic {
+        display: none
     }
+
 }
+
+@media screen and (max-width: 576px) {
+    .textpic {
+        display: none
+    }
+
+}
+
 
 .nav-item{font-size: 20px; text-align: center; font-family: Optima, sans-serif;}
 
 /* Images */
 
 .textpic{float: right; border-color: orange; border-style: solid; border-width: thick; margin: 15px}
-#missionpic{float: right; border-color: orange; border-style: solid; border-width: thick; margin: 15px}
+.textpic2{border-color: orange; border-style: solid; border-width: thick; box-sizing: border-box; display: block; margin-right: auto; margin-left: auto}#missionpic{float: right; border-color: orange; border-style: solid; border-width: thick; margin: 15px}
 #whatpic{float: left; border-color: orange; border-width: thick; border-style: solid; margin-right: 45px; margin-bottom: 30px}
 #news{float: left}
 .npic{margin-bottom: 30px}

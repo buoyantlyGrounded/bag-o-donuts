@@ -4,9 +4,8 @@
 
 * {box-sizing: border-box}
 
-body {
-    background-image: linear-gradient(to right, lightblue, #006699, #006699, #006699, #006699, lightblue);
-    overflow-x: hidden
+html, body {
+    width: 100%; height: 100%; margin: 0px; padding: 0px; overflow-x: hidden; background-image: linear-gradient(to right, lightblue, #006699, #006699, #006699, #006699, lightblue)
 }
 
 html {font-size: 16px}
